@@ -33,9 +33,9 @@ Este documento organiza as tarefas técnicas do projeto Portal de Parcerias Netz
 ## Semana 18/05–24/05
 - [ ] Configurar Nginx como reverse proxy para a aplicação Node.js **(2026-05-18)**
 - [ ] Estudar configuração de HTTPS com Let's Encrypt e Certbot **(2026-05-20)**
-- [ ] Criar projeto Payload CMS com configuração inicial e estrutura de pastas **(2026-05-21)**  
+- [x] Criar projeto Payload CMS com configuração inicial e estrutura de pastas **(2026-05-21)**  
   - *Foco em collections, globals, SEO e configurações de site.*
-- [ ] Conectar Payload ao banco PostgreSQL e validar a conexão **(2026-05-23)**
+- [x] Conectar Payload ao banco PostgreSQL e validar a conexão **(2026-05-23)**
 
 ## Semana 25/05–31/05
 - [ ] Configurar certificado SSL e ativar HTTPS na aplicação **(2026-05-25)**
