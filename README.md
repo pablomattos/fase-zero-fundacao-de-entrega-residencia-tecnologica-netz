@@ -27,7 +27,7 @@ Este documento organiza as tarefas técnicas do projeto Portal de Parcerias Netz
 - [x] Estudar Linux e linha de comando: navegação, permissões, SSH e gestão de processos **(2026-05-11)**
 - [x] Estudar PostgreSQL básico: criação de banco, permissões e conexão via Node.js **(2026-05-12)**
 - [ ] Provisionar a VPS da Netz e configurar acesso SSH com chave pública **(2026-05-14)**
-- [ ] Pesquisar boas práticas de segurança em servidores Node.js em produção **(2026-05-16)**
+- [x] Pesquisar boas práticas de segurança em servidores Node.js em produção **(2026-05-16)**
 - [ ] Instalar e configurar Node.js, npm e PostgreSQL no servidor **(2026-05-17)**
 
 ## Semana 18/05–24/05
