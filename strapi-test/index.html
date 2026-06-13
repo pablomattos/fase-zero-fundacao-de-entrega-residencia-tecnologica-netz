@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Netz - Navegador de Artigos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Consumindo Artigos do Strapi 🚀</h1>
+    <p class="subtitle">Portal de Parcerias Netz — Ambiente de Homologação Dinâmico</p>
+    
+    <p class="status" id="status">Conectando à API da Netz...</p>
+
+    <div class="controls-panel" id="controls-panel" style="display: none;">
+        <span>Trocar por Autor:</span>
+        <button class="btn active" id="btn-todos">Mostrar Todos</button>
+    </div>
+
+    <div class="grid" id="dados-container"></div>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
