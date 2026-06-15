@@ -7,19 +7,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <h1>Consumindo Artigos do Strapi 🚀</h1>
     <p class="subtitle">Portal de Parcerias Netz — Ambiente de Homologação Dinâmico</p>
-    
-    <p class="status" id="status">Conectando à API da Netz...</p>
+    <p class="status" id="status">Conectando à API...</p>
 
-    <div class="controls-panel" id="controls-panel" style="display: none;">
-        <span>Trocar por Autor:</span>
-        <button class="btn active" id="btn-todos">Mostrar Todos</button>
+    <div class="admin-panel">
+        <form id="form-autor" class="mini-form">
+            <input type="text" id="autor-nome" placeholder="Nome do Autor" required>
+            <input type="email" id="autor-email" placeholder="E-mail" required>
+            <input type="file" id="autor-avatar" accept="image/*" required>
+            <button type="submit" class="btn active">Criar Autor</button>
+        </form>
+        <form id="form-artigo" class="mini-form">
+            <input type="text" id="artigo-titulo" placeholder="Título" required>
+            <textarea id="artigo-descricao" placeholder="Descrição" rows="1" required></textarea>
+            <select id="artigo-autor" required><option value="">Autor...</option></select>
+            <input type="text" id="artigo-categoria" placeholder="Categoria" required>
+            <input type="file" id="artigo-cover" accept="image/*" required>
+            <button type="submit" class="btn active">Publicar</button>
+        </form>
     </div>
 
+    <div class="search-container"><input type="text" id="search-input" placeholder="Pesquisar por artigo ou autor..."></div>
+    <div class="controls-panel" id="controls-panel" style="display: none;">
+        <span>Filtrar:</span><button class="btn active" id="btn-todos">Mostrar Todos</button>
+    </div>
     <div class="grid" id="dados-container"></div>
-
     <script type="module" src="app.js"></script>
 </body>
 </html>
