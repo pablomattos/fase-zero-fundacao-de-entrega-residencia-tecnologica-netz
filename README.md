@@ -26,21 +26,21 @@ Este documento organiza as tarefas técnicas do projeto Portal de Parcerias Netz
 ## Semana 11/05–17/05
 - [x] Estudar Linux e linha de comando: navegação, permissões, SSH e gestão de processos **(2026-05-11)**
 - [x] Estudar PostgreSQL básico: criação de banco, permissões e conexão via Node.js **(2026-05-12)**
-- [ ] Provisionar a VPS da Netz e configurar acesso SSH com chave pública **(2026-05-14)**
+- [x] Provisionar a VPS da Netz e configurar acesso SSH com chave pública **(2026-05-14)**
 - [x] Pesquisar boas práticas de segurança em servidores Node.js em produção **(2026-05-16)**
-- [ ] Instalar e configurar Node.js, npm e PostgreSQL no servidor **(2026-05-17)**
+- [x] Instalar e configurar Node.js, npm e PostgreSQL no servidor **(2026-05-17)**
 
 ## Semana 18/05–24/05
-- [ ] Configurar Nginx como reverse proxy para a aplicação Node.js **(2026-05-18)**
-- [ ] Estudar configuração de HTTPS com Let's Encrypt e Certbot **(2026-05-20)**
+- [x] Configurar Nginx como reverse proxy para a aplicação Node.js **(2026-05-18)**
+- [x] Estudar configuração de HTTPS com Let's Encrypt e Certbot **(2026-05-20)**
 - [x] Criar projeto Payload CMS com configuração inicial e estrutura de pastas **(2026-05-21)**  
   - *Foco em collections, globals, SEO e configurações de site.*
 - [x] Conectar Payload ao banco PostgreSQL e validar a conexão **(2026-05-23)**
 
 ## Semana 25/05–31/05
-- [ ] Configurar certificado SSL e ativar HTTPS na aplicação **(2026-05-25)**
-- [ ] Implementar schema base: páginas, mídia, SEO global e configurações do site **(2026-05-26)**
-- [ ] Testar o painel `/admin`: criar, editar e publicar conteúdo de todas as collections **(2026-05-30)**
+- [x] Configurar certificado SSL e ativar HTTPS na aplicação **(2026-05-25)**
+- [x] Implementar schema base: páginas, mídia, SEO global e configurações do site **(2026-05-26)**
+- [x] Testar o painel `/admin`: criar, editar e publicar conteúdo de todas as collections **(2026-05-30)**
 - [ ] Atualizar o `deploy.md` com o processo real executado na VPS, incluindo problemas encontrados **(2026-05-31)**
 
 ## Semana 01/06–07/06
